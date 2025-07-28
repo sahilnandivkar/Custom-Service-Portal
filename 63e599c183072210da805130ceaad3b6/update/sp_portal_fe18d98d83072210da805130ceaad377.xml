@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables/>
+        <css_variables>$brand-primary:#468077;&#13;
+$body-bg:#f6f6f8;&#13;
+$state-success-text:#181A1F;&#13;
+$sp-homepage-bg:#fff;&#13;
+$sp-navbar-divider-color:#F5F5F5;&#13;
+$text-color:#181A1F;&#13;
+$sp-logo-margin-y:.6rem;&#13;
+$navbar-inverse-link-hover-color:#515050;&#13;
+$panel-bg:#ffffff;&#13;
+$brand-success:#51ae00;&#13;
+$brand-warning:#F0E000;&#13;
+$brand-danger:#E42338;&#13;
+$sp-tagline-color:#181A1F;&#13;
+$navbar-inverse-link-color:#ffffff;&#13;
+$brand-info:#38aaf4;&#13;
+$link-color:#3C3D3C;&#13;
+$sp-logo-margin-x:.6rem;&#13;
+$btn-default-bg:#ffffff;&#13;
+$text-muted:#656E81;&#13;
+</css_variables>
         <dark_theme/>
         <default>false</default>
         <enable_ais>false</enable_ais>
@@ -14,7 +33,7 @@
         <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
         <logo/>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
-        <quick_start_config/>
+        <quick_start_config>[{"favorite":{"icon_checked":"fa-heart","icon_unchecked":"fa-heart-o","color":"primary"}}]</quick_start_config>
         <rtl_enabled>false</rtl_enabled>
         <sc_catalog/>
         <sc_catalog_page display_value="git_of_roshn_esc_sc_category_2_1">6fef190983472210da805130ceaad35b</sc_catalog_page>
@@ -22,23 +41,23 @@
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu/>
+        <sp_rectangle_menu display_value="GIT Employee Center Menu roshnesc_2">42f86dc183872210da805130ceaad3bc</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-28 08:57:27</sys_created_on>
         <sys_id>fe18d98d83072210da805130ceaad377</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>GIT Portal</sys_name>
         <sys_package display_value="Custom Service Portal" source="x_1536664_custom_s">63e599c183072210da805130ceaad3b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Custom Service Portal">63e599c183072210da805130ceaad3b6</sys_scope>
         <sys_update_name>sp_portal_fe18d98d83072210da805130ceaad377</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-28 09:55:00</sys_updated_on>
-        <theme/>
+        <sys_updated_on>2025-07-28 10:16:39</sys_updated_on>
+        <theme display_value="GIT EC Theme roshnesc_2">9fb7690183872210da805130ceaad351</theme>
         <title>GIT Portal</title>
         <ts_index_group/>
-        <url_suffix>git</url_suffix>
+        <url_suffix>github</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=fe18d98d83072210da805130ceaad377"/>
 </record_update>
